@@ -20,3 +20,13 @@ escrever texto do commit sobre o botão assim
 git push
 
 adicionar os colaboradores
+
+
+
+$ git pull --all
+
+//o pull de todas as branches
+
+git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
+
+// 
