@@ -13,3 +13,6 @@ git init
 
 git add .  (ou apertar o '+');
 
+git commit -m "commit inicial"
+
+escrever texto do commit sobre o botão assim
