@@ -29,3 +29,7 @@ git branch nome_da_branch
 // trocar a branch
 
 git checkout pag_agendamento
+
+
+
+$ git branch -r | grep -v '\->' | while read remote; dp git branch -- track "{remote#origin/}" "$remote"; done
